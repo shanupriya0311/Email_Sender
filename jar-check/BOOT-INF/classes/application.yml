@@ -1,0 +1,29 @@
+server:
+  port: 8081
+
+app:
+  email:
+    resend:
+      api-url: "https://api.resend.com"
+      api-key: ${RESEND_API_KEY}
+
+  webhook:
+    secret: ${SUPABASE_WEBHOOK_SECRET}
+
+  mail:
+    from: "Valoria Technology <hr@valoriatech.page>"
+    subject: "Internship Registration Successful – Valoria Technology"
+    message: |
+      Dear Candidate,
+
+      We are pleased to inform you that your internship registration with Valoria Technology has been successfully completed.
+
+      Our team will review your application and share further updates regarding the internship process through your registered email address.
+
+      We appreciate your interest in Valoria Technology and look forward to having you as part of our community.
+
+      Best Regards,
+      HR Team
+      Valoria Technology
+      hr@valoriatech.page
+      https://valoriatech.page
