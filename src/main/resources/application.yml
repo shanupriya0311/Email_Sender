@@ -18,6 +18,6 @@ app:
   webhook:
     secret: ${SUPABASE_WEBHOOK_SECRET}
   mail:
-    from: ${MAIL_FROM:hr@valoriatech.page}
+    from: ${MAIL_FROM}
     subject: ${REGISTRATION_EMAIL_SUBJECT:Internship Registration Confirmation}
     message: "${REGISTRATION_EMAIL_MESSAGE:Dear Candidate,\n\nWe are pleased to inform you that your internship registration with Valoria Technology has been successfully completed.\nThank you for your interest in joining our internship program. We have successfully received your application details.\n\nOur team will review your application and share further updates regarding the internship process through your registered email address.\nWe appreciate your interest in Valoria Technology and look forward to having you as part of our learning community.\n\nBest Regards,\nHR Team\nValoria Technology\nhr@valoriatech.page\nhttps://valoriatech.page}"
